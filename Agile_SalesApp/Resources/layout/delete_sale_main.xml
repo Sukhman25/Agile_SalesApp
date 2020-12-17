@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp" android:background="@color/background">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:gravity="center_horizontal" android:text="Delete Sale Entry" 
+        android:fontFamily="serif-monospace"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="10px"
+    android:text="" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:fontFamily="monospace" android:inputType="text" android:hint="Invoice ID" 
+    android:id="@+id/etID" />
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="10px"
+    android:text="" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:text="Delete Sale Details"
+    android:id="@+id/btn1"/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="10px"
+    android:text="" />
+<Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:text="Back to Sale Section"
+    android:id="@+id/btn2"/>
+
+</LinearLayout>

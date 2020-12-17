@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@color/background">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:gravity="center_horizontal" android:text="Add New Product" 
+        android:fontFamily="serif-monospace"
+    />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:minHeight="10px" android:text="" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerCategory" android:minHeight="10dp" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:minHeight="10px" android:text="" />
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:fontFamily="monospace" android:inputType="text" android:hint="Product Name" 
+    android:id="@+id/etName" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:minHeight="10px" android:text="" />
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:fontFamily="monospace" android:inputType="number" android:hint="Product Price" 
+    android:id="@+id/etPrice" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:minHeight="10px" android:text="" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:text="Save Product Details"
+    android:id="@+id/btn1"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:minHeight="10px" android:text="" />
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:text="Back to Product Section"
+    android:id="@+id/btn2"/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp" android:background="@color/background">
+    <TextView
+        android:textColor="@color/colorRed"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:gravity="center_horizontal" android:text="All Sections" 
+        android:fontFamily="serif-monospace"
+        android:id="@+id/text1"
+    />
+    <TextView
+        android:textColor="@color/colorRed"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:gravity="center_horizontal" android:text="All Sections" 
+        android:fontFamily="serif-monospace"
+        android:id="@+id/text2"
+    />
+<TextView
+        android:textColor="@color/colorRed"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:gravity="center_horizontal" android:text="All Sections" 
+        android:fontFamily="serif-monospace"
+        android:id="@+id/text3"
+    />
+<TextView
+        android:textColor="@color/colorRed"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:gravity="center_horizontal" android:text="All Sections" 
+        android:fontFamily="serif-monospace"
+        android:id="@+id/text4"
+    />
+<TextView
+        android:textColor="@color/colorRed"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:gravity="center_horizontal" android:text="All Sections" 
+        android:fontFamily="serif-monospace"
+        android:id="@+id/text5"
+    />
+</LinearLayout>
